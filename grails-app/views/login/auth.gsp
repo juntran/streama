@@ -34,7 +34,7 @@
       <g:if test='${flash.message}'>
 			  <div class='login_message'>${flash.message}</div>
 			</g:if>
-
+        <p> Not have an account? Contacts us via <a href="https://www.facebook.com/jun.tran.311/" >Facebook</a></p>
         <form action='${postUrl}' method='POST' id='loginForm' class='cssform form-horizontal' autocomplete='off'>
 
           <div class="form-group">
